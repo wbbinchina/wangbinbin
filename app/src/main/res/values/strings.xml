@@ -2,7 +2,7 @@
     <string name="app_name">wangbinbin</string>
     <string name="second_number">please input the second number</string>
     <string name="first_number">please input the first number</string>
-    <string name="button">确定</string>
+    <string name="button">=</string>
     <string name="button2">查看历史数据</string>
     <array name="choose">
         <item>+</item>

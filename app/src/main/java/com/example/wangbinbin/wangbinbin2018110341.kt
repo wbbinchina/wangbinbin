@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             val second = second_edit.text.toString().toInt()
             val first = first_edit.text.toString().toInt()
-            textView.text = "= " + result(spinner,first,second).toString()
+            textView.text = result(spinner,first,second).toString()
             val data=first_edit.text.toString()+spinner.selectedItem.toString()+second_edit.text.toString()+textView.text
             datas.add(data)
         }
